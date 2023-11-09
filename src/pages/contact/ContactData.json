@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "FACEBOOK",
+    "network": "facebook",
+    "link": "https://facebook.com/profile.php?id=100080738778284",
+    "mention": "@anishneupane"
+  },
+  {
+    "id": 2,
+    "name": "INSTAGRAM",
+    "network": "instagram",
+    "link": "https://instagram.com/anish7neu?igshid=MWNibG5lNm9zN2tzag==",
+    "mention": "@anish7neu"
+  },
+  {
+    "id": 3,
+    "name": "GITHUB",
+    "network": "github",
+    "link": "https://github.com/anish7neu",
+    "mention": "@anish7neu"
+  },
+  {
+    "id": 4,
+    "name": "LINKEDIN",
+    "network": "linkedin",
+    "link": "https://www.linkedin.com/in/anish-neupane-28bba2236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "mention": "@anishneupane"
+  },
+  {
+    "id": 5,
+    "name": "EMAIL",
+    "network": "email",
+    "link": "mailto:anishneupane2058@gmail.com",
+    "mention": "anishneupane2058@gmail.com"
+  }
+]

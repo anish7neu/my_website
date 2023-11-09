@@ -1,0 +1,67 @@
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 730px) {
+  .contact-detail {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.social-media-container {
+  padding: 2%;
+}
+.contact-link {
+  text-decoration: none;
+}
+.social-acc-name {
+  color: black;
+  border-radius: 3px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.single-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* form part */
+
+form {
+  width: 100%;
+}
+.query-question {
+  background-color: aqua;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 4px;
+  color: white;
+}
+form > input,
+form > textarea {
+  font-size: large;
+  border: solid;
+  border-radius: 3px;
+  width: 400px;
+}
+form > button {
+  background-color: rgb(125, 239, 125);
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: none;
+  font-size: 25px;
+  color: rgb(17, 90, 1);
+}
