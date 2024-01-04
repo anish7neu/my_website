@@ -1,0 +1,61 @@
+.main-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.sigin-in-out-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sign-out-btn {
+  background-color: #f73422;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sign-in-btn,
+.create-post-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sign-out-btn:hover {
+  background-color: #e75c43;
+}
+.sign-in-btn:hover,
+.create-post-btn:hover {
+  background-color: #4395e7;
+}
+
+.create-post-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.create-post-btn a:hover {
+  text-decoration: none;
+}
+
+.home-page-link {
+  text-decoration: none;
+  color: #3498db;
+  font-size: 18px;
+  margin-bottom: 20px;
+}

@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="contact-main">
         <div className="header">Contact</div>
         <div className="description">
-          You can reach out to me through various ways.
+          You can reach me out via various platforms.
         </div>
       </div>
       <br />
@@ -20,10 +20,10 @@ const Contact = () => {
             return (
               <div className="social-media-container">
                 <div>
-                  <a href={data.link} className="contact-link">
+                  <a href={data.link} target="blank" className="contact-link">
                     <div className="single-contact">
                       <div>
-                        <SocialIcon network={data.network} target="blank" />
+                        <SocialIcon network={data.network} />
                       </div>
                       <div className="name-mention-div">
                         <div>
@@ -49,6 +49,7 @@ const Contact = () => {
           </div>
           <br />
           <form
+            netlify
             onSubmit={(e) => {
               e.preventDefault();
             }}

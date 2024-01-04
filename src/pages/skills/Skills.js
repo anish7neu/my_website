@@ -8,7 +8,7 @@ const Skills = () => {
         </div>
         <div>
           <span className="description">
-            You can see all the skills that I had accumulated with passage of
+            You can see all the skills that I have accumulated with passage of
             time here.
           </span>
           <br />
@@ -21,7 +21,7 @@ const Skills = () => {
             <br />
             <span className="open-close-tag">&lt;&gt;</span>
             <br />
-            <span>Beginner in MERN Stack.</span>
+            <span>Learning MERN Stack.</span>
             <br />
             <span className="open-close-tag">&lt;&#47;&gt;</span>
           </div>
@@ -45,7 +45,6 @@ const Skills = () => {
             <br />
             <span className="open-close-tag">&lt;&#47;&gt;</span>
           </div>
-          <div className="one-skill">Something</div>
         </div>
       </div>
     </div>

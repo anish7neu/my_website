@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 const MyInfo = () => {
   const [visitorName, setVisitorName] = React.useState("");
 
-  useEffect(() => {
-    setVisitorName(prompt("I request you to type your name?"));
-  }, []);
+  // useEffect(() => {
+  //   setVisitorName(prompt("I request you to type your name?"));
+  // }, []);
   return (
     <>
       <div className="my-info">
